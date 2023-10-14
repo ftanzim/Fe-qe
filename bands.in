@@ -1,0 +1,5 @@
+&bands
+outdir = '/home/ftanzim/Fe-qe/out',
+prefix = 'fe',
+filband = 'bands.dat'
+/
