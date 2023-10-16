@@ -26,3 +26,14 @@ run_plot(path_kpoints)
 ```
 
 Assuming that the calculation has been performed with the same path as `path_kpoints`. Familiarizing with the source code is mandatory to create custom plot. For example one could either call for `plot_eigen_ax` method in `PwXML`.
+
+Examples are available in the `databases_qepy.tar` file which you can extract with `tar -xvf databases_qepy.tar`
+
+In particular, one of the example is for [Fe-metal](#fe-metal)
+
+## Fe-metal
+Run the script with
+```python
+python plot-qe-bands.py
+```
+and visualize the result. The code goes into the `.save` folder of QE and creates a `PwXML` class object. At the end you get a plot of the band structure with spin up and down
