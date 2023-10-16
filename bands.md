@@ -27,7 +27,13 @@ run_plot(path_kpoints)
 
 Assuming that the calculation has been performed with the same path as `path_kpoints`. Familiarizing with the source code is mandatory to create custom plot. For example one could either call for `plot_eigen_ax` method in `PwXML`.
 
-Examples are available in the `databases_qepy.tar` file which you can extract with `tar -xvf databases_qepy.tar`
+Examples are available in the `databases_qepy.tar`.
+
+Download it with:
+
+`wget https://media.yambo-code.eu/educational/tutorials/files/databases_qepy.tar`
+
+extract with `tar -xvf databases_qepy.tar`
 
 In particular, one of the example is for [Fe-metal](#fe-metal)
 
