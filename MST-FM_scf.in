@@ -1,0 +1,44 @@
+&CONTROL
+  calculation = 'nscf'
+  outdir = '/projects/0/prjs0388/Farhan/MST-qe/qe-yambo/out-16-120'
+  prefix = 'MST'
+  pseudo_dir = '/projects/0/prjs0388/Farhan/MST-qe/pseudo'
+  verbosity = 'high'
+  wf_collect=.true. 
+/
+&SYSTEM
+  ecutrho = 480 
+  ecutwfc = 120
+  ibrav = 0
+  nat = 7
+  nosym = .false.
+  ntyp = 3
+  noncolin=.true.
+  lspinorb=.true.
+  starting_magnetization(1) =   4
+  nbnd = 700
+/
+&ELECTRONS
+  conv_thr =   1.0e-13
+  diago_full_acc = .true.
+  electron_maxstep = 35
+  mixing_beta =   4.0000000000d-01
+/
+ATOMIC_SPECIES
+  Mn  1.  Mn.upf
+  Sb  1.  Sb.upf
+  Te  1.  Te.upf
+ATOMIC_POSITIONS crystal
+  Mn           0.0000000000       0.0000000000       0.0000000000
+  Sb           0.5749100000       0.5749100000      -0.4250900000
+  Sb           0.4250900000       0.4250900000      -0.5749100000
+  Te           0.7078000000      -0.2922000000      -0.2922000000
+  Te           0.2922000000       0.2922000000       0.2922000000
+  Te           0.8686400000      -0.1313600000      -0.1313600000
+  Te           0.1313600000       0.1313600000       0.1313600000
+CELL_PARAMETERS angstrom
+     2.13064997280874891217     1.23013133535     13.6873337993
+    -2.13064997280874891217     1.23013133535     13.6873337993
+     0.00000000000000000000     -2.46026267070     13.6873337993
+K_POINTS automatic
+16 16 16 0 0 0
