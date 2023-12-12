@@ -1,0 +1,78 @@
+
+
+
+_|      _|   _|_|   _|      _|  _|_|_|     _|_|
+  _|  _|   _|    _| _|_|  _|_| _|    _| _|    _|
+    _|     _|_|_|_| _|  _|  _| _|_|_|   _|    _|
+    _|     _|    _| _|      _| _|    _| _|    _|
+    _|     _|    _| _|      _| _|_|_|     _|_|
+
+
+
+ <---> P23: [01] MPI/OPENMP structure, Files & I/O Directories
+ <---> P23-tcn424.local.snellius.surf.nl: MPI Cores-Threads   : 128(CPU)-1(threads)-1(threads@X)-1(threads@DIP)-1(threads@SE)-1(threads@RT)-1(threads@K)-1(threads@NL)
+ <---> P23-tcn424.local.snellius.surf.nl: [02] CORE Variables Setup
+ <---> P23-tcn424.local.snellius.surf.nl: [02.01] Unit cells
+ <---> P23-tcn424.local.snellius.surf.nl: [02.02] Symmetries
+ <---> P23-tcn424.local.snellius.surf.nl: [02.03] Reciprocal space
+ <---> P23-tcn424.local.snellius.surf.nl: [WARNING] wf_ng > maxval(wf_igk), probably because FFTGvecs in input. Reducing it
+ <---> P23-tcn424.local.snellius.surf.nl: [02.04] K-grid lattice
+ <---> P23-tcn424.local.snellius.surf.nl: Grid dimensions      :   6   6   6
+ <---> P23-tcn424.local.snellius.surf.nl: [02.05] Energies & Occupations
+ <---> P23-tcn424.local.snellius.surf.nl: [03] Transferred momenta grid and indexing
+ <---> P23-tcn424.local.snellius.surf.nl: [04] Dipoles
+ <---> P23-tcn424.local.snellius.surf.nl: [PARALLEL DIPOLES for K(ibz) on 4 CPU] Loaded/Total (Percentual):8/32(25%)
+ <---> P23-tcn424.local.snellius.surf.nl: [PARALLEL DIPOLES for CON bands on 4 CPU] Loaded/Total (Percentual):73/293(25%)
+ <---> P23-tcn424.local.snellius.surf.nl: [PARALLEL DIPOLES for VAL bands on 8 CPU] Loaded/Total (Percentual):19/157(12%)
+ <---> P23-tcn424.local.snellius.surf.nl: [DIP] Database not correct or missing. To be computed
+ <---> P23-tcn424.local.snellius.surf.nl: [x,Vnl] computed using 238 projectors
+ <---> P23-tcn424.local.snellius.surf.nl: [WARNING] [x,Vnl] slows the Dipoles computation. To neglect it rename the ns.kb_pp file
+ <02s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |                                        | [000%] --(E) --(X)
+ <02s> P23-tcn424.local.snellius.surf.nl: [PARALLEL distribution for Wave-Function states] Loaded/Total(Percentual):92/450(20%)
+ <29s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#                                       | [002%] 27s(E) 18m-13s(X)
+ <34s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |##                                      | [005%] 32s(E) 09m-15s(X)
+ <39s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |###                                     | [008%] 37s(E) 06m-58s(X)
+ <44s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |####                                    | [011%] 42s(E) 05m-58s(X)
+ <01m-09s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#####                                   | [012%] 01m-07s(E) 09m-03s(X)
+ <01m-14s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |######                                  | [015%] 01m-12s(E) 07m-41s(X)
+ <01m-20s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#######                                 | [019%] 01m-17s(E) 06m-48s(X)
+ <01m-25s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |########                                | [022%] 01m-23s(E) 06m-11s(X)
+ <01m-53s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |##########                              | [025%] 01m-51s(E) 07m-25s(X)
+ <01m-58s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |###########                             | [027%] 01m-56s(E) 07m-01s(X)
+ <02m-03s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |############                            | [030%] 02m-01s(E) 06m-42s(X)
+ <02m-08s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#############                           | [033%] 02m-06s(E) 06m-18s(X)
+ <02m-13s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |##############                          | [036%] 02m-11s(E) 05m-56s(X)
+ <02m-39s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |###############                         | [037%] 02m-37s(E) 07m-00s(X)
+ <02m-44s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |################                        | [041%] 02m-42s(E) 06m-32s(X)
+ <02m-49s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |##################                      | [045%] 02m-47s(E) 06m-07s(X)
+ <02m-54s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |###################                     | [049%] 02m-52s(E) 05m-48s(X)
+ <03m-17s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |####################                    | [050%] 03m-15s(E) 06m-30s(X)
+ <03m-22s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#####################                   | [053%] 03m-20s(E) 06m-16s(X)
+ <03m-27s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |######################                  | [056%] 03m-25s(E) 06m-02s(X)
+ <03m-32s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#######################                 | [059%] 03m-30s(E) 05m-51s(X)
+ <03m-55s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#########################               | [062%] 03m-53s(E) 06m-13s(X)
+ <04m-00s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |##########################              | [065%] 03m-58s(E) 06m-04s(X)
+ <04m-05s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |###########################             | [068%] 04m-03s(E) 05m-55s(X)
+ <04m-10s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |############################            | [071%] 04m-08s(E) 05m-46s(X)
+ <04m-31s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |##############################          | [075%] 04m-29s(E) 05m-59s(X)
+ <04m-36s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |###############################         | [078%] 04m-34s(E) 05m-52s(X)
+ <04m-41s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |################################        | [080%] 04m-39s(E) 05m-48s(X)
+ <04m-46s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#################################       | [083%] 04m-44s(E) 05m-42s(X)
+ <04m-51s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |##################################      | [085%] 04m-49s(E) 05m-38s(X)
+ <05m-10s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |###################################     | [087%] 05m-08s(E) 05m-52s(X)
+ <05m-15s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |####################################    | [090%] 05m-13s(E) 05m-45s(X)
+ <05m-20s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |#####################################   | [093%] 05m-18s(E) 05m-39s(X)
+ <05m-25s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |######################################  | [096%] 05m-23s(E) 05m-34s(X)
+ <05m-30s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |####################################### | [099%] 05m-28s(E) 05m-29s(X)
+ <05m-30s> P23-tcn424.local.snellius.surf.nl: Dipoles: P, V and iR (T) |########################################| [100%] 05m-28s(E) 05m-28s(X)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [05] Dynamic Dielectric Matrix (PPA)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL Response_G_space_and_IO for K(bz) on 2 CPU] Loaded/Total (Percentual):108/216(50%)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL Response_G_space_and_IO for Q(ibz) on 2 CPU] Loaded/Total (Percentual):16/32(50%)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL Response_G_space_and_IO for G-vectors on 4 CPU]
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL Response_G_space_and_IO for K-q(ibz) on 1 CPU] Loaded/Total (Percentual):32/32(100%)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [LA] SERIAL linear algebra
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL Response_G_space_and_IO for K(ibz) on 1 CPU] Loaded/Total (Percentual):32/32(100%)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL Response_G_space_and_IO for CON bands on 2 CPU] Loaded/Total (Percentual):146/293(50%)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL Response_G_space_and_IO for VAL bands on 4 CPU] Loaded/Total (Percentual):39/157(25%)
+ <05m-42s> P23-tcn424.local.snellius.surf.nl: [PARALLEL distribution for RL vectors(X) on 4 CPU] Loaded/Total (Percentual):6840/48841(14%)
+ <05m-43s> P23-tcn424.local.snellius.surf.nl: [MEMORY] Alloc WF%c( 113.6131 [Gb]) TOTAL:  113.9662 [Gb] (traced)  873.0440 [Mb] (memstat)
